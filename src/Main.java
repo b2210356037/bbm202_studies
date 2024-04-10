@@ -3,8 +3,8 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        SelectionSort selectionSort;
-        selectionSort = new SelectionSort();
+        //SelectionSort selectionSort;
+        //selectionSort = new SelectionSort();
         List<Integer> arr = new ArrayList<>();
         arr.add(64);
         arr.add(34);
@@ -15,8 +15,12 @@ public class Main {
         arr.add(90);
         //selectionSort.selection_sort(arr);
 
-        InsertionSort insertionSort;
-        insertionSort = new InsertionSort();
-        insertionSort.insertion_sort(arr);
+        //InsertionSort insertionSort;
+        //insertionSort = new InsertionSort();
+        //insertionSort.insertion_sort(arr);
+
+        MergeSort mergeSort;
+        mergeSort = new MergeSort();
+        mergeSort.merge_sort(arr);
     }
 }
