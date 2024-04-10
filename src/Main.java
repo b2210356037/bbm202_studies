@@ -13,6 +13,10 @@ public class Main {
         arr.add(22);
         arr.add(11);
         arr.add(90);
-        selectionSort.selection_sort(arr);
+        //selectionSort.selection_sort(arr);
+
+        InsertionSort insertionSort;
+        insertionSort = new InsertionSort();
+        insertionSort.insertion_sort(arr);
     }
 }
