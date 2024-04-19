@@ -19,8 +19,14 @@ public class Main {
         //insertionSort = new InsertionSort();
         //insertionSort.insertion_sort(arr);
 
-        MergeSort mergeSort;
-        mergeSort = new MergeSort();
-        mergeSort.merge_sort(arr);
+//        MergeSort mergeSort;
+//        mergeSort = new MergeSort();
+//        mergeSort.merge_sort(arr);
+
+        QuickSort quickSort;
+        quickSort = new QuickSort();
+        quickSort.quick_sort(arr, 0, arr.size()-1);
+        System.out.println(arr);
+
     }
 }
